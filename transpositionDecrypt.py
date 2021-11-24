@@ -36,8 +36,8 @@ def decryptMessage(key, message):
 
         # If there are no more columns OR we're at a shaded box, go back
         # to the first column and the next row:
-        if (column == numOfCoulumns) or (column == numOfCoulumns - 1
-                                         and row >= numOfRows - numOfShadedBoxes):
+        if (column == numOfCoulumns) or (column == numOfCoulumns - 1 and row
+                                         >= numOfRows - numOfShadedBoxes):
             column = 0
             row += 1
 
